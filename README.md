@@ -19,11 +19,12 @@ Diseño optimizado para modo video 03h (texto VGA 80x25).
 
 ⚙️ Controles
 Tecla	Acción
-← / A	Mover izquierda
-→ / D	Mover derecha
+← 	Mover izquierda
+→ 	Mover derecha
 Espacio	Saltar
 R	Reiniciar después de Game Over
 ESC	Salir del juego
+
 🧩 Requisitos
 
 MASM32 o TASM (para ensamblar y linkear)
