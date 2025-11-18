@@ -1,6 +1,7 @@
 ; rapidroll.asm - Juego RapidRoll en MASM (texto 80x25)
 ; Controls: Flecha izquierda/derecha para mover, Espacio para saltar
 ; R para reiniciar cuando hay game over
+;--------------------
 
 .MODEL small
 .STACK 100h
@@ -559,5 +560,6 @@ draw_only:
     mov ax, 4C00h
     int 21h
 main endp
+
 
 end main
